@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/member.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+    <h2 class="txt">닌텐도 어카운트 생성을 위해 <br>아래 정보를 입력해주세요</h2>
+    
+    <!-- #FFE9D4(/#FF8B20(배경좡)/DE1919(제출버튼)/757575(폰트) -->
+    <div class="pre"><a href="#"><img src="img/pre.png" alt="return"></a></div>
+    
+    <div class="container">
+    </div>
+     
+        
+        <div id="join_mem">
+        <legend>회원가입</legend>
+        <form name="form_mem" method="post" action="insert.php">
+            <fieldset>
+            <div id="form_mem" >
+
+                <label for="name">이름</label>
+                <input type="text" name="name" id="name">
+
+                <label for="id">ID</label>
+                <input type="text" name="id" id="id">
+
+                <label for="pwd">비밀번호</label>
+                <input type="password" name="pwd" id="pwd">
+
+                <label for="pwd1">비밀번호 확인</label>
+                <input type="password" name="pwd1" id="pwd1">
+
+
+           
+                <label for="Email" class="mail">메일주소</label>
+                <div class ="info" id="info_Email">
+                <input type="text" name="Email" id="Email">
+                <span>@</span>
+                <select  id="domain-list">
+                <option value="naver.com">naver.com</option>
+                <option value="gmail.com">google.com</option>
+                <option value="hanmail.net">hanmail.net</option>
+                <option value="nate.com">nate.com</option>
+                <option value="kakao.com">kakao.com</option>
+                </select>
+                </div>
+
+                <label for="tel" >전화번호</label>
+                <input type="tel" name="tel" id="tel">
+
+                
+                <label for="birth">생년월일</label>
+                <div class="info" id="info_birth">
+                <select class="box" id="birth-year">
+                <option disabled selected>년</option> 
+                <option value="2010">2010년</option>
+                <option value="2009">2009년</option>
+                <option value="2008">2008년</option>
+                <option value="2007">2007년</option>
+                <option value="2006">2006년</option>
+                <option value="2005">2005년</option>
+                <option value="2004">2004년</option>
+                <option value="2003">2003년</option>
+                <option value="2002">2002년</option>
+
+                </select>
+                <select class="box" id="birth-month">
+                    <option disabled selected>월</option>
+                    <option value="1">1월</option>
+                    <option value="2">2월</option>
+                    <option value="3">3월</option>
+                    <option value="4">4월</option>
+                    <option value="5">5월</option>
+                    <option value="6">6월</option>
+                    <option value="7">7월</option>
+                    <option value="8">8월</option>
+                    <option value="9">9월</option>
+                    <option value="10">10월</option>
+                    <option value="11">11월</option>
+                    <option value="12">12월</option>
+                </select>
+                <select class="box" id="birth-day">
+                    <option disabled selected>일</option>
+                    <option value="1">1일</option>
+                    <option value="2">2일</option>
+                    <option value="3">3일</option>
+                    <option value="4">4일</option>
+                    <option value="5">5일</option>
+                    <option value="6">6일</option>
+                    <option value="7">7일</option>
+                    <option value="8">8일</option>
+                    <option value="9">9일</option>
+                    <option value="10">10일</option>
+                    <option value="11">11일</option>
+                    <option value="12">12일</option>
+                    <option value="13">13일</option>
+                    <option value="14">14일</option>
+                    <option value="15">15일</option>
+                    <option value="16">16일</option>
+                    <option value="17">17일</option>
+                    <option value="18">18일</option>
+                    <option value="19">19일</option>
+                    <option value="20">20일</option>
+                    <option value="2">21일</option>
+                    <option value="2">22일</option>
+                    <option value="2">23일</option>
+                    <option value="2">24일</option>
+                    <option value="2">25일</option>
+                    <option value="2">26일</option>
+                    <option value="2">27일</option>
+                    <option value="2">28일</option>
+                    <option value="2">29일</option>
+                    <option value="30">30일</option>
+                    <option value="31">31일</option>
+                   
+                   
+                </select>
+                
+                </div>
+                <span class="bir">※생년월일은 추후 변경할 수 없습니다. </span>
+
+                
+             
+            </div>
+        </form>
+        <div id="btn"><a href="#">제출</a></div>
+    </div> 
+
+
+</body>
+</html>

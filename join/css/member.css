@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+*,*:before,*:after{box-sizing: border-box;}
+body{background: #FF8B20 url(../img/run.png) no-repeat;background-position:110% 0% ;background-size:150px;overflow-x: hidden;
+}
+
+
+
+.pre {margin-top:25px;margin-left: 20px;display:inline-block;}
+.pre img{width:80%;}
+.container{width:100%;
+          padding-top:7rem;
+        }
+h2{font-size: 1.1rem; color: #fff;width: 90%;}
+.txt {position: absolute;left:10%;top:12%;}
+
+
+#join_mem{
+          background: white ;
+           height: 100vh; 
+          border-radius: 50px 50px 0 0; 
+          padding:20px ;width:100%;position: relative;
+}
+
+.run img{position: absolute;right:-45px ;top:-150px;width:40%;max-width: 150px;}
+
+
+legend{
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bold; 
+    }
+
+#form_mem{margin: 40px auto 0 auto;width:90%;text-align: center;}
+#form_mem label{display: block;font-size:0.8rem;font-weight: bold;text-align: left;}
+#form_mem input{margin-top:5px;margin-bottom:10px;background: #FFE9D4;border:none;border-radius: 10px;font-size: 0.8rem;height:30px;text-indent: 4px;width:100%}
+.info{display:flex;justify-content: space-between;width:100%;}
+#info_Email input{width:60%;}
+#info_Email select{width:40%;}
+#info_Email span{margin: 8px}
+
+select{border: none;background: #FFE9D4;border-radius: 10px;height:30px;margin:5px auto;font-size:0.8rem;color:inherit;text-indent: 8px;}
+select option{background: white;}
+#info_birth select {width:33.33%;margin-right:8px}
+#birth-day{margin-right:0 !important;}
+.bir{font-size: 0.7rem;float: left;}
+/* 제출버튼 */
+#btn {padding:10px;width: 100%;background: #fff;position: fixed;bottom:0;left:50%;transform: translateX(-50%);text-align: center;}
+#btn a{text-decoration: none;color:#fff;font-size: 0.8rem;background:#de1919;padding:8px 20px;display:block;width: 30%;margin-left:auto;margin-right: auto;}
+
